@@ -1,9 +1,11 @@
 É inegavel a importância de um Banco de Dados (Data Base) para armazenar e manter dados de clientes, serviços, produtos e operações. Atualmente, há diversas linguagens de banco de dados, algumas mais simples, outras mais complexas. A mais utilizada no mundo até o momento é a SQL (Structured Query Language). Mas antes de falar da SQL, vamos conhecer alguns conceitos.
 
-> QUER IR DIRETO AO PONTO? NAVEGUE PELAS SEÇÕES:
-*[DataBase - Conceitos](#idcap1)*
-*[O que é SQL](#idcap2)*
-*[SELECT - solicitando dados](#idcap3)*
+> **QUER IR DIRETO AO PONTO? NAVEGUE PELAS SEÇÕES:**
+> *[DataBase - Conceitos](#idcap1)*
+> *[O que é SQL](#idcap2)*
+> *[SELECT - solicitando dados](#idcap3)*
+> s
+> s
 
 
 ![Banco de Dados](https://becode.com.br/wp-content/uploads/2018/07/teste-bd-1152x605.png)
@@ -56,9 +58,17 @@ Por exemplo, se você vai fazer um site ou um sistema pequeno de gerencialmento,
 <a id="idcap2"></a>
 
 # O QUE É SQL
+SQL quer dizer "Structured Query Language" ou "Linguagem de Consulta Estruturada". Foi criado para simplificar a administração e alteração de dados de um sistema, permitindo que vários programadores a utilizassem ao mesmo tempo.
 
+A linguagem surgiu em meados dos anos 70 dentro da IBM em São José, Califórnia. A primeira versão comercial da SQL foi disponibilzida no mesmo período e se tornou um sucesso, fazendo então com que a ANSI (American National Standart Institute) desenolvesse logo uma padronização de sua implementação e programação. Atualmente, a SQL é uma das mais utilizadas linguagens de banco de dados, dada a sua facilitade e versatilidade.
 
+A SQL possui subconjuntos, que são:
+- **DML (Data Manipulation Language)**: são os comandos da SQL utilziada para solicitar, inserir e apagar dados da tabela;
+- **DDL (Data Definition Language)**: são os comandos utilizados para definir novas tabelas ou apagar antigas;
+- **DCL (Data Control Language)** - são os comandos utilizados para controlar os aspectos de segurança e permissões das tabelas;
+- **DTL (Data Transition Language)** - são os comandos utilizados para determinar as transações entre uma tabela e outra.
 
+A seguir, vamos ver na prática os comandos da linguagem para criar, consultar, inserir, alterar e deletar tabelas.
 
 <a id="idcap3"></a>
 
