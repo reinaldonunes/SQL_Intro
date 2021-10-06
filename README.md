@@ -1,12 +1,15 @@
 É inegavel a importância de um Banco de Dados (Data Base) para armazenar e manter dados de clientes, serviços, produtos e operações. Atualmente, há diversas linguagens de banco de dados, algumas mais simples, outras mais complexas. A mais utilizada no mundo até o momento é a SQL (Structured Query Language). Mas antes de falar da SQL, vamos conhecer alguns conceitos.
 
 > QUER IR DIRETO AO PONTO? NAVEGUE PELAS SEÇÕES:
-<a id="teste"></a>
-- SGBD
+*[DataBase - Conceitos](#idcap1)*
+*[O que é SQL](#idcap2)*
+*[SELECT - solicitando dados](#idcap3)*
 
 
 ![Banco de Dados](https://becode.com.br/wp-content/uploads/2018/07/teste-bd-1152x605.png)
 *Fonte imagem: Becode*
+
+<a id="idcap1"></a>
 
 # DATABASE - CONCEITOS
 O banco de dados pode ser descrito como armazenamento e organização de informações de algum domínio em questão. É onde os dados de um site, sistema, servidor, etc, ficam contidos com recursos de segurança, permitindo conferência futura, ou até mesmo alteração e exclusão.
@@ -21,7 +24,7 @@ Os bancos de dados podem ser de diversos tipos:
 
 Há diversos outros modelos também, como os datawarehouses, os OLTP, etc.
 
-### SGBD [Topo](#teste)
+### SGBD
 Para um melhor controle e administração dos dados, existem os DataBase Managment System, ou Sistemas de Gerenciamento de Banco de Dados (SGBDs). São compostos por diversos softwares que permite a administração, consulta, alteração e exclusão de dados contidos nos bancos.
 
 Algums dos SGBDs mais conhecidos atualmente são:
@@ -35,7 +38,6 @@ Algums dos SGBDs mais conhecidos atualmente são:
 
 ![SGBDs Disponíveis no Mercado](https://miro.medium.com/max/2400/1*h0ccJ-A0qaNQDflqKDsyzA.png)
 *Fonte imagem: Miro Medium*
-
 
 ### RELACIONAL E NÃO RELACIONAL (NOSQL)
 Um banco de dados relacional geralmente armazena seus dados em tabela. Cada tabela pode armazenar dados de forma independente, mas podem se relacionar com outras para complementar seus dados. Imagine uma lista de produtos. Eles terão nome, peso, dimensão, etc... mas podem ter outras informações provenientes de outras tabelas, como categoria e marca, que por ventura, estarão em outras tabelas. Dessa forma, a relação entre as tabelas de dados pode ser facilitada e permitindo uma melhor comunicação entre eles na hora de se realizar um filtro, por exemplo. 
@@ -51,18 +53,14 @@ Por exemplo, se você vai fazer um site ou um sistema pequeno de gerencialmento,
 ![Relacional vs Não Relacional](https://miro.medium.com/max/1200/0*LR8ZkHpzwTAZjBtI.png)
 *Fonte imagem: Miro Medium*
 
+<a id="idcap2"></a>
+
 # O QUE É SQL
 
 
 
 
+<a id="idcap3"></a>
 
-
-
-# SQL_Intro
-
-- Falar sobre o que é banco de dados e a importância
-- Abordar o que é sgbd
-- Falar sobre a diferença entre db relacional e não relacional (nosql)
-- Primeiros módulos
-- tentar ser coeso e objetio nas explicações.
+# SELECT - REQUISITANDO DADOS
+aaaa
