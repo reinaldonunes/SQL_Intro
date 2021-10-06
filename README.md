@@ -63,7 +63,7 @@ SQL quer dizer "Structured Query Language" ou "Linguagem de Consulta Estruturada
 A linguagem surgiu em meados dos anos 70 dentro da IBM em São José, Califórnia. A primeira versão comercial da SQL foi disponibilzida no mesmo período e se tornou um sucesso, fazendo então com que a ANSI (American National Standart Institute) desenolvesse logo uma padronização de sua implementação e programação. Atualmente, a SQL é uma das mais utilizadas linguagens de banco de dados, dada a sua facilitade e versatilidade.
 
 A SQL possui subconjuntos, que são:
-- **DML (Data Manipulation Language)**: são os comandos da SQL utilziada para solicitar, inserir e apagar dados da tabela;
+- **DML (Data Manipulation Language)**: são os comandos da SQL utilizada para solicitar, inserir e apagar dados da tabela;
 - **DDL (Data Definition Language)**: são os comandos utilizados para definir novas tabelas ou apagar antigas;
 - **DCL (Data Control Language)** - são os comandos utilizados para controlar os aspectos de segurança e permissões das tabelas;
 - **DTL (Data Transition Language)** - são os comandos utilizados para determinar as transações entre uma tabela e outra.
@@ -72,5 +72,91 @@ A seguir, vamos ver na prática os comandos da linguagem para criar, consultar, 
 
 <a id="idcap3"></a>
 
+# CRIANDO, ALTERANDO E APAGANDO DB E TABLES
+Primeiro de tudo, temos de criar um banco de dados para trabalharmos. Para isso, a SQL utiliza a sintaxe `CREATE DATABASE nomedb;`.
+
+Dentro desse banco criado, poderemos então criar e adicionar nossas tabelas de dados.
+
+Para remover um banco, utilizamos `DROP DATABASE nomedb;`.
+
+Obs: somente execute este comando quando já tiver feito backup dos dados ou tiver certeza que não serão uteis para mais nada. Essa ação é irreversível e pode comprometer a integridade do seu banco.
+
+Após criar o banco, se você utiliza um gerenciador visual, basta selecionar o banco para executar outros comandos. Se quiser selecionar ela por SQL, utilize `USE nomedb;`. Desta forma, a SQL vai selecionar a tabela criada anteriormente, permitindo que você trabalhe diretamente com ela (e não com outra aleatória).
+
+##
+
+Após criar um banco de dados, precisamos definir as tabelas que armazenarão os dados. Para isso, utilizamos:
+```
+CREATE TABLE nometabela(
+    campo1 INT(9);
+    campo2 VARCHAR(100);
+    campo3 TEXT();
+)
+```
+Para deletar a tabela, utilizamos `DROP TABLE nometabela;`.
+
+Para alterar a tabela do banco, adicionado mais um campo, por exemplo, utilizamos o comando `ALTER TABLE` e após isso espeficando o que adicionar:
+```
+ALTER TABLE nometablea ADD COLUMN campo4 VARCHAR(250);
+```
+Ou apagando um campo, com:
+```
+ALTER TABLE nometabela DROP COLUMN campo4;
+```
+
+# INSERINDO, ATUALIZANDO E APAGANDO DADOS NA TABLE
+Para inserir dados em uma tabela, executamos o comando `INSERT INTO` acompanhado dos campos e seus respectivos valores.
+```
+INSERT INTO nometabela(campo1,campo2,campo3)
+VALUES
+('Valor Campo 1','Valor Campo 2','Valor Campo 3),
+('Valor Campo 1','Valor Campo 2','Valor Campo 3),
+('Valor Campo 1','Valor Campo 2','Valor Campo 3),
+('Valor Campo 1','Valor Campo 2','Valor Campo 3)
+```
+
+
+
+
+
+
+
+
+
+## TIPAGEM E ATRIBUTOS DOS CAMPOS
+Ao criar os campos, também devemos definir o tipo de dado que ele vai armazenar e quais seus atributos. Para isso, complementamos com:
+- `campo1 INT(9);` para indicar que o campo é do tipo inteiro e armazenará até 9 dígitos;
+- `campo1 VARCHAR(100);` para indicar que o campo será do tipo String, armazenando até 100 caracteres;
+- `campo1 TEXT();` para indicar que o campo será do tipo String, mas sem limite de caracteres;
+- `campo1 INT(9) NOT NULL` para indicar que o campo não pode ficar vazio;
+- `campo1 INT(9) PRIMARY KEY;` para indicar que campo será usado como índice para relação com outras tabelas;
+- `campo1 INT(9) AUTO INCREMENT;` para indicar que o valor do campo será atualizado automaticamente em cada registro.
+
+Assim, criando a tabela já bem definida, teríamos:
+```
+CREATE TABLE nometabela(
+    campo1 INT(9) NOT NULL PRIMARY KEY AUTO INCREMENT;
+    campo2 VARCHAR(100) NULL;
+    campo3 TEXT() NULL;
+)
+```
+
+
+
+
+
+
+
+
+
+
+- Se o campo precisa ser obrigatóriamente preenchido, utilizamos *NOT NULL*, ficando `campo1 INT(9) NOT NULL`;
+- Se o campo precisa ser uma chave primária, ou seja, ser um índice para relacionar esta tabela com outra, adiciona-se o comando *PRIMARY_KEY*, ficando assim `campo1 INT(9) NOT NULL PRIMARY_KEY`.
+- Se o campo vai ser preenchido automaticamente a cada registro, utilizamos o comando *AUTO_INCREMENT*, ficando `campo1 INT(9) NOT NULL PRIMARY_KEY AUTO_INCREMENT`.
+- *INT(9)* determina que o campo será do tipo Inteiro (números) e terá limite de até 9 dígitos;
+- *VARCHAR(100)* determina que o campo será do tipo String e terá um limite de até 100 caracteres;
+- *TEXT()* determina que o campo será do tipo String mas não haverá limite para a quantidade de caracteres gravados.
+
+
+
 # SELECT - REQUISITANDO DADOS
-aaaa
