@@ -1,5 +1,10 @@
 É inegavel a importância de um Banco de Dados (Data Base) para armazenar e manter dados de clientes, serviços, produtos e operações. Atualmente, há diversas linguagens de banco de dados, algumas mais simples, outras mais complexas. A mais utilizada no mundo até o momento é a SQL (Structured Query Language). Mas antes de falar da SQL, vamos conhecer alguns conceitos.
 
+> QUER IR DIRETO AO PONTO? NAVEGUE PELAS SEÇÕES:
+<a id="teste"></a>
+- SGBD
+
+
 ![Banco de Dados](https://becode.com.br/wp-content/uploads/2018/07/teste-bd-1152x605.png)
 *Fonte imagem: Becode*
 
@@ -16,7 +21,7 @@ Os bancos de dados podem ser de diversos tipos:
 
 Há diversos outros modelos também, como os datawarehouses, os OLTP, etc.
 
-### SGBD
+### SGBD [Topo](#teste)
 Para um melhor controle e administração dos dados, existem os DataBase Managment System, ou Sistemas de Gerenciamento de Banco de Dados (SGBDs). São compostos por diversos softwares que permite a administração, consulta, alteração e exclusão de dados contidos nos bancos.
 
 Algums dos SGBDs mais conhecidos atualmente são:
