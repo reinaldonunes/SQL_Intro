@@ -141,22 +141,4 @@ CREATE TABLE nometabela(
 )
 ```
 
-
-
-
-
-
-
-
-
-
-- Se o campo precisa ser obrigatóriamente preenchido, utilizamos *NOT NULL*, ficando `campo1 INT(9) NOT NULL`;
-- Se o campo precisa ser uma chave primária, ou seja, ser um índice para relacionar esta tabela com outra, adiciona-se o comando *PRIMARY_KEY*, ficando assim `campo1 INT(9) NOT NULL PRIMARY_KEY`.
-- Se o campo vai ser preenchido automaticamente a cada registro, utilizamos o comando *AUTO_INCREMENT*, ficando `campo1 INT(9) NOT NULL PRIMARY_KEY AUTO_INCREMENT`.
-- *INT(9)* determina que o campo será do tipo Inteiro (números) e terá limite de até 9 dígitos;
-- *VARCHAR(100)* determina que o campo será do tipo String e terá um limite de até 100 caracteres;
-- *TEXT()* determina que o campo será do tipo String mas não haverá limite para a quantidade de caracteres gravados.
-
-
-
 # SELECT - REQUISITANDO DADOS
