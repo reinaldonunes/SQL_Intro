@@ -1,11 +1,11 @@
 É inegavel a importância de um Banco de Dados (Data Base) para armazenar e manter dados de clientes, serviços, produtos e operações. Atualmente, há diversas linguagens de banco de dados, algumas mais simples, outras mais complexas. A mais utilizada no mundo até o momento é a SQL (Structured Query Language). Mas antes de falar da SQL, vamos conhecer alguns conceitos.
 
 > **QUER IR DIRETO AO PONTO? NAVEGUE PELAS SEÇÕES:**
-> *[DataBase - Conceitos](#idcap1)*
-> *[O que é SQL](#idcap2)*
-> *[SELECT - solicitando dados](#idcap3)*
-> s
-> s
+> - *[DataBase - Conceitos](#idcap1)*
+> - *[O que é SQL](#idcap2)*
+> - *[SELECT - solicitando dados](#idcap3)*
+> - s
+> - s
 
 
 ![Banco de Dados](https://becode.com.br/wp-content/uploads/2018/07/teste-bd-1152x605.png)
