@@ -1,5 +1,6 @@
 É inegavel a importância de um Banco de Dados (Data Base) para armazenar e manter dados de clientes, serviços, produtos e operações. Atualmente, há diversas linguagens de banco de dados, algumas mais simples, outras mais complexas. A mais utilizada no mundo até o momento é a SQL (Structured Query Language). Mas antes de falar da SQL, vamos conhecer alguns conceitos.
-[!Banco de Dados](https://becode.com.br/wp-content/uploads/2018/07/teste-bd-1152x605.png)
+
+![Banco de Dados](https://becode.com.br/wp-content/uploads/2018/07/teste-bd-1152x605.png)
 
 # DATABASE - CONCEITOS
 O banco de dados pode ser descrito como armazenamento e organização de informações de algum domínio em questão. É onde os dados de um site, sistema, servidor, etc, ficam contidos com recursos de segurança, permitindo conferência futura, ou até mesmo alteração e exclusão.
