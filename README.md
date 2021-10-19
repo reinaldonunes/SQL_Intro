@@ -185,11 +185,13 @@ Antes de mais nada, para se criar um sistema que precisará de um banco de dados
 
 Para realizar a modelagem do banco de dados em SQL, pode-se utilizar várias ferramentas, como *MySQL Workbench*, *Astah Professional* e o *DrawSQL*. No caso do DrawSQL, é possível fazer a modelagem do banco diretamente online, através [deste link](https://drawsql.app/).
 
-[Site do DrawSQL](https://drawsql.app/img/drawsql-screenshot-2.png)
+![Site do DrawSQL](https://drawsql.app/img/drawsql-screenshot-2.png)
+*Fonte imagem: DrawSQL*
 
 Para testar e aplicar os comandos SQL, é possível utilizar o **SQL LITE ONLINE**, sendo acessível [aqui](https://sqliteonline.com/).
 
-[Site do SQLlite](https://terminalroot.com.br/assets/img/mysql/sqliteonline.png)
+![Site do SQLlite](https://terminalroot.com.br/assets/img/mysql/sqliteonline.png)
+*Fonte imagem: Terminal Root*
 
 
 #
